@@ -28,7 +28,6 @@ t2 = create_sprite("Blue duck",x2,y2)
 t3 = create_sprite("Black Duck",x3,y3)
 t4 = create_sprite("yellow duck",x4,y4)
 
-
 # # Section 3 - Racing
 # # TODO - set how much each variable changes by and increase the number of repeats to at least 30
 # # TODO - explain here which sprites are faster or slower
@@ -37,6 +36,7 @@ for i in range(40):
     x2 += random.randint(5,15)
     x3 += 15
     x4 += 10
+# The Black Duck moves the most each time, but the Blue Duck might have a chance if it picks the highest number each time.
 
     t1.goto(x1, y1)
     t2.goto(x2, y2)
